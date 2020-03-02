@@ -1,1 +1,4 @@
-
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile C:\Bitnami\Wamp\apache2\htdocs\Restricted\.htpasswd
+require valid-user
