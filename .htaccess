@@ -86,7 +86,3 @@ RewriteRule ^.* - [F,L]
 order allow,deny
 deny from all
 </Files>
-AuthType Basic
-AuthName "Restricted Area"
-AuthUserFile C:\Bitnami\Wamp\apache2\htdocs\.htpasswd
-require valid-user

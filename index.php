@@ -33,7 +33,7 @@ fclose($handle);
 	$color	= "light";
 
 	// ADD SPECIFIC FILES YOU WANT TO IGNORE HERE
-	$ignore_file_list = array( ".htaccess", "index.php", "users.txt", ".htaccess", ".htpasswd", "400.html", "401.html", "403.html", "404.html", "500.html");
+	$ignore_file_list = array( ".htaccess", "index.php", "users.txt", ".htaccess", ".htpasswd", "400.html", "401.html", "403.html", "404.html", "500.html", "Restricted");
 
 	// ADD SPECIFIC FILE EXTENSIONS YOU WANT TO IGNORE HERE, EXAMPLE: array('psd','jpg','jpeg')
 	$ignore_ext_list = array( );
